@@ -1,0 +1,8 @@
+# Só os arquivos de apresentação abaixo podem entrar neste repositório.
+*
+!/.gitignore
+!/README.md
+!/assets/
+!/assets/logo.svg
+!/docs/
+!/docs/desenvolvimento.md

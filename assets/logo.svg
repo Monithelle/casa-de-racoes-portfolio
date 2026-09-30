@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 140" role="img" aria-labelledby="title desc">
+  <title id="title">Casa de Rações</title>
+  <desc id="desc">Logotipo com uma casa e pata</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f8a62"/>
+      <stop offset="1" stop-color="#146c4e"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8 12)">
+    <path d="M60 6 8 48v62h104V48L60 6Z" fill="url(#g)"/>
+    <path d="M22 48 60 18l38 30" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 79c4-8 14-12 20-5 6-7 16-3 20 5 5 10-4 21-20 26-16-5-25-16-20-26Z" fill="#f5a623"/>
+    <circle cx="39" cy="67" r="7" fill="#f5a623"/><circle cx="53" cy="59" r="7" fill="#f5a623"/><circle cx="69" cy="59" r="7" fill="#f5a623"/><circle cx="83" cy="67" r="7" fill="#f5a623"/>
+  </g>
+  <text x="142" y="65" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#17342a">Casa de</text>
+  <text x="142" y="108" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#1f8a62">Rações</text>
+</svg>
