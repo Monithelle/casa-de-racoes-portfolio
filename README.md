@@ -28,9 +28,35 @@ Controlar um estoque exige acompanhar mais que o saldo atual: é necessário sab
 - Arquivamento de produtos somente com saldo zero, mantendo os registros.
 - Permissões de administrador, operador e consulta verificadas no servidor.
 
-## Tecnologias
+## Tecnologias e linguagens utilizadas
 
-**HTML, CSS e JavaScript** na interface; **PHP** na API; **SQLite via PDO** no armazenamento; **SVG** na identidade visual e nos gráficos. A publicação utiliza uma hospedagem PHP e transferência SFTP.
+### Linguagens da aplicação
+
+| Linguagem | Tipo | Uso no projeto |
+| --- | --- | --- |
+| **HTML** | Marcação | Estrutura das telas de login e do painel |
+| **CSS** | Estilos | Cores, organização visual e adaptação das telas |
+| **JavaScript** | Programação no navegador | Interações, formulários e comunicação com a API |
+| **PHP** | Programação no servidor | API, autenticação, permissões, regras de estoque e relatórios |
+| **SQL** | Consultas e definição de dados | Estrutura, consultas e atualizações do banco SQLite |
+
+### Linguagens dos scripts de apoio
+
+| Linguagem | Uso no projeto |
+| --- | --- |
+| **PowerShell** | Configuração de acesso, preparação do pacote de publicação e verificações no Windows |
+| **Batch do Windows (.bat)** | Inicialização do sistema no computador local |
+
+### Banco de dados, recursos e ferramentas
+
+- **SQLite:** armazenamento dos produtos, movimentações, usuários e auditoria.
+- **PDO:** interface do PHP para acesso ao banco de dados.
+- **SVG:** formato vetorial utilizado no logo e nos gráficos.
+- **Git e GitHub:** histórico de alterações, repositório privado do código e apresentação pública.
+- **Alwaysdata:** hospedagem da aplicação PHP.
+- **WinSCP com SFTP:** envio dos arquivos à hospedagem.
+
+### Organização da aplicação
 
 ```mermaid
 flowchart LR
